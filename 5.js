@@ -12,5 +12,13 @@
 let luggage = ['пакет', 'мяч', 'тапки', 'когтеточка', 'коробка', 'миска', 'мята'];
 let startIndex = 1;
 let quantity = 3;
+
+// Вариант со splice
 let chosenLuggage = luggage.splice(startIndex, quantity)
+
+// Вариант с циклом
+// for (let i = startIndex; i < startIndex + quantity; i++) {
+//   chosenLuggage.push(luggage[i])
+// }
+
 console.log(chosenLuggage)
